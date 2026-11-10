@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deepti – Full-stack developer</title>
+<meta name="description" content="Deepti is a full-stack (MERN) developer and B.Tech CSE student at GLA University, building AI-integrated, cloud-deployed web apps.">
+<meta property="og:title" content="Deepti – Full-stack developer">
+<meta property="og:description" content="AI-integrated, cloud-deployed web apps with React, Node.js, Express and MongoDB.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230E7C7B'/%3E%3Ctext x='32' y='46' font-size='40' font-family='Georgia,serif' font-weight='700' text-anchor='middle' fill='white'%3ED%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#projects">Skip to projects</a>
+<header class="bar">
+  <a class="brand" href="#top">Deepti</a>
+  <nav aria-label="Main"><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a></nav>
+  <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false" title="Switch to dark theme">
+    <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+    <svg class="theme-icon theme-icon-moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20.9 13A9 9 0 0 1 11 3.1 9 9 0 1 0 20.9 13Z"/></svg>
+  </button>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Deepti</h1>
+      <p class="lead">Full-stack developer building AI-integrated, cloud-deployed web apps.</p>
+      <p>B.Tech CSE student at GLA University, Mathura. I build with React, Node.js, Express and MongoDB, and I'm Oracle Cloud certified with AWS Academy cloud foundations.</p>
+      <p class="actions">
+        <a class="btn primary" href="#projects">View projects</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="wrap">
+  <h2>Projects</h2>
+  <div class="project-toolbar">
+    <p>Selected work, from AI-powered cloud planning to full-stack product development.</p>
+    <div class="project-filters" role="group" aria-label="Filter projects">
+      <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All projects</button>
+      <button class="filter-button" type="button" data-filter="ai-cloud" aria-pressed="false">AI &amp; cloud</button>
+      <button class="filter-button" type="button" data-filter="full-stack" aria-pressed="false">Full-stack</button>
+    </div>
+    <p class="filter-status" aria-live="polite">2 projects</p>
+  </div>
+
+  <div class="project-grid">
+    <article class="project" data-category="ai-cloud">
+      <a class="project-preview" href="https://aws-stack-advisor.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open the StackSage live demo">
+        <img src="assets/stacksage-preview.png" alt="StackSage architecture advisor landing page" loading="lazy">
+        <span class="project-preview-label">AWS ARCHITECTURE ADVISOR</span>
+        <span class="preview-cta">Explore live demo <span aria-hidden="true">&rarr;</span></span>
+      </a>
+      <div class="project-content">
+        <header>
+          <h3>StackSage</h3>
+          <p class="meta">AWS architecture advisor, 2026<br>Full Stack Developer</p>
+        </header>
+        <div>
+          <p>Recommends AWS architectures from a guided quiz or a free-text project description. Gemini handles intake, and a 25-service AWS catalog powers head-to-head comparisons.</p>
+          <dl class="facts">
+            <div><dt>Well-Architected pillars scored</dt><dd>6</dd></div>
+            <div><dt>AWS services in the catalog</dt><dd>25</dd></div>
+            <div><dt>Automated tests</dt><dd>121</dd></div>
+          </dl>
+          <ul>
+            <li>Scores every design against all 6 Well-Architected pillars, with a cost estimator and Terraform scaffold export.</li>
+            <li>Shareable read-only links, plus PDF and JSON export.</li>
+            <li>Catalog-grounded AI chat assistant, a personalized dashboard, and saved-stack history with side-by-side comparison.</li>
+            <li>54 integration tests, 67 end-to-end tests, GitHub Actions CI, and Pino logging with Sentry.</li>
+          </ul>
+          <ul class="project-tags" aria-label="Technologies">
+            <li>React</li><li>Node.js</li><li>Express</li><li>MongoDB</li><li>Gemini API</li><li>Terraform</li><li>Vercel</li>
+          </ul>
+        </div>
+      </div>
+      <footer class="project-actions">
+        <a class="project-action demo-action" href="https://aws-stack-advisor.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M14 3h7v7m-1-6-9 9"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+          <span>Live demo</span><span class="action-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+        <a class="project-action source-action" href="https://github.com/DeeptiBaghel-hub/StackSage" target="_blank" rel="noopener noreferrer">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.9-2.7c3-.3 6.2-1.5 6.2-6.7a5.2 5.2 0 0 0-1.4-3.6 4.8 4.8 0 0 0-.1-3.6S17.7 1.2 15 3a13.2 13.2 0 0 0-7 0C5.3 1.2 4.2 1.5 4.2 1.5a4.8 4.8 0 0 0-.1 3.6 5.2 5.2 0 0 0-1.4 3.6c0 5.2 3.2 6.4 6.2 6.7A3.4 3.4 0 0 0 8 18v4"/></svg>
+          <span>Source code</span><span class="action-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      </footer>
+    </article>
+
+    <article class="project" data-category="full-stack">
+      <a class="project-preview" href="https://job-portal-main-mocha.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open the CareerNest live demo">
+        <img src="assets/careernest-preview.png" alt="CareerNest job search and application landing page" loading="lazy">
+        <span class="project-preview-label">JOB PORTAL</span>
+        <span class="preview-cta">Explore live demo <span aria-hidden="true">&rarr;</span></span>
+      </a>
+      <div class="project-content">
+        <header>
+          <h3>CareerNest</h3>
+          <p class="meta">Full-stack hiring platform, 2026<br>Full Stack Developer</p>
+        </header>
+        <div>
+          <p>A job portal where recruiters post roles and job seekers browse and apply.</p>
+          <ul>
+            <li>Job posting, browsing and application management for both sides.</li>
+            <li>RESTful APIs on Node.js and Express, with MongoDB for persistence.</li>
+            <li>Separate recruiter and job-seeker workflows in a responsive React frontend, deployed on Vercel.</li>
+          </ul>
+          <ul class="project-tags" aria-label="Technologies">
+            <li>React</li><li>Node.js</li><li>Express</li><li>MongoDB</li><li>Vercel</li>
+          </ul>
+        </div>
+      </div>
+      <footer class="project-actions">
+        <a class="project-action demo-action" href="https://job-portal-main-mocha.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M14 3h7v7m-1-6-9 9"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+          <span>Live demo</span><span class="action-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+        <a class="project-action source-action" href="https://github.com/DeeptiBaghel-hub/job-portal-main" target="_blank" rel="noopener noreferrer">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.9-2.7c3-.3 6.2-1.5 6.2-6.7a5.2 5.2 0 0 0-1.4-3.6 4.8 4.8 0 0 0-.1-3.6S17.7 1.2 15 3a13.2 13.2 0 0 0-7 0C5.3 1.2 4.2 1.5 4.2 1.5a4.8 4.8 0 0 0-.1 3.6 5.2 5.2 0 0 0-1.4 3.6c0 5.2 3.2 6.4 6.2 6.7A3.4 3.4 0 0 0 8 18v4"/></svg>
+          <span>Source code</span><span class="action-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      </footer>
+    </article>
+  </div>
+</section>
+
+<section id="experience" class="wrap">
+  <h2>Experience and education</h2>
+  <div class="rows">
+    <article>
+      <h3>Software Development Intern</h3>
+      <p class="meta">Vicharanashala Lab for Education Design, IIT Ropar<br>Jun 2026 to Aug 2026</p>
+      <p>Worked on Yaksha FAQ Portal, a crowd-sourced FAQ platform with hybrid search, AI-powered answer generation and community moderation tools, designed to scale to 1M+ users. Stack: React, Node.js, MongoDB.</p>
+    </article>
+    <article>
+      <h3>B.Tech, Computer Science and Engineering</h3>
+      <p class="meta">GLA University, Mathura<br>2024 to 2028</p>
+      <p>CGPA 8.7 / 10.</p>
+    </article>
+  </div>
+</section>
+
+<section id="skills" class="wrap">
+  <h2>Skills</h2>
+  <dl class="skills">
+    <div><dt>Languages</dt><dd>Java, Python, C, JavaScript, TypeScript</dd></div>
+    <div><dt>Frontend</dt><dd>React, Vite, HTML, CSS, Bootstrap</dd></div>
+    <div><dt>Backend</dt><dd>Node.js, Express.js, REST APIs</dd></div>
+    <div><dt>Databases</dt><dd>MongoDB, MySQL</dd></div>
+    <div><dt>Cloud and DevOps</dt><dd>AWS, Oracle Cloud Infrastructure, Docker, Kubernetes, Jenkins, GitHub Actions, Terraform (basics), Vercel, Render, Firebase</dd></div>
+    <div><dt>Also</dt><dd>JWT authentication, Git and GitHub, Gemini AI API integration</dd></div>
+  </dl>
+</section>
+
+<section id="certifications" class="wrap">
+  <h2>Certifications</h2>
+  <ul class="certs">
+    <li><strong>Oracle Cloud Infrastructure 2025 Certified Architect Associate</strong><span>Oracle University</span><a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=598490D591603E23642FA4BF30A0E3CB58FAA7BFF6B97B6AF2A0D773F01EAB33" rel="noopener">Verify</a></li>
+    <li><strong>Agentic AI Certified Foundations Associate</strong><span>Oracle, Jul 2026</span><a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=124E1BFC7FC766327847F0F3601C4AEA206BF0F572E4DA482F7D5E5D2D58D0A4" rel="noopener">Verify</a></li>
+    <li><strong>Microsoft Certified: SQL AI Developer Associate</strong><span>Microsoft, Sep 2026 (valid till Sep 2027)</span><a href="https://learn.microsoft.com/en-gb/users/deeptibaghel-2197/credentials/1c0e9cebb18a9620" rel="noopener">Verify</a></li>
+    <li><strong>Gold badges and certifications in Java and SQL</strong><span>HackerRank</span><a href="https://www.hackerrank.com/certificates/000ed71400ff" rel="noopener">Verify</a></li>
+  </ul>
+</section>
+
+<section id="contact" class="wrap contact">
+  <h2>Contact</h2>
+  <p class="lead">Open to internships and junior developer roles. Email is the fastest way to reach me.</p>
+  <p class="actions">
+    <a class="btn primary" href="mailto:deepti.gla_cs24@gla.ac.in">deepti.gla_cs24@gla.ac.in</a>
+    <a class="btn" href="https://www.linkedin.com/in/deepti-baghel-a37491327" rel="noopener">LinkedIn</a>
+    <a class="btn" href="https://github.com/DeeptiBaghel-hub" rel="noopener">GitHub</a>
+    <a class="btn" href="https://leetcode.com/u/D_deepti/" rel="noopener">LeetCode</a>
+  </p>
+</section>
+</main>
+
+<footer class="foot"><div class="wrap">© 2026 Deepti. Mathura, Uttar Pradesh, India.</div></footer>
+<button class="back-to-top" type="button" aria-label="Back to top" title="Back to top">
+  <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 14 6-6 6 6"/></svg>
+</button>
+<script>
+  const root = document.documentElement;
+  const themeToggle = document.querySelector(".theme-toggle");
+  const themeStorageKey = "deepti-portfolio-theme";
+  const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  let savedTheme = null;
+
+  try {
+    savedTheme = window.localStorage.getItem(themeStorageKey);
+  } catch (error) {
+    console.warn("Theme preference could not be loaded from storage.", error);
+  }
+
+  root.dataset.theme = savedTheme === "light" || savedTheme === "dark"
+    ? savedTheme
+    : systemPrefersDark ? "dark" : "light";
+
+  function updateThemeToggle() {
+    const isDark = root.dataset.theme === "dark";
+    const nextTheme = isDark ? "light" : "dark";
+    themeToggle.setAttribute("aria-label", `Switch to ${nextTheme} theme`);
+    themeToggle.setAttribute("title", `Switch to ${nextTheme} theme`);
+    themeToggle.setAttribute("aria-pressed", String(isDark));
+  }
+
+  themeToggle.addEventListener("click", () => {
+    root.dataset.theme = root.dataset.theme === "dark" ? "light" : "dark";
+    updateThemeToggle();
+
+    try {
+      window.localStorage.setItem(themeStorageKey, root.dataset.theme);
+    } catch (error) {
+      console.warn("Theme preference could not be saved to storage.", error);
+    }
+  });
+
+  updateThemeToggle();
+
+  const filterButtons = [...document.querySelectorAll(".filter-button")];
+  const projects = [...document.querySelectorAll(".project")];
+  const filterStatus = document.querySelector(".filter-status");
+
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const filter = button.dataset.filter;
+      let visibleCount = 0;
+      const projectGrid = document.querySelector(".project-grid");
+
+      filterButtons.forEach((filterButton) => {
+        const isActive = filterButton === button;
+        filterButton.classList.toggle("is-active", isActive);
+        filterButton.setAttribute("aria-pressed", String(isActive));
+      });
+
+      projects.forEach((project) => {
+        const isVisible = filter === "all" || project.dataset.category === filter;
+        project.hidden = !isVisible;
+        if (isVisible) visibleCount += 1;
+      });
+
+      projectGrid.classList.toggle("has-one-visible", visibleCount === 1);
+      filterStatus.textContent = `${visibleCount} ${visibleCount === 1 ? "project" : "projects"} shown`;
+    });
+  });
+
+  const navLinks = [...document.querySelectorAll('.bar nav a[href^="#"]')];
+  const sections = navLinks
+    .map((link) => document.querySelector(link.getAttribute("href")))
+    .filter(Boolean);
+
+  if ("IntersectionObserver" in window) {
+    const sectionObserver = new IntersectionObserver((entries) => {
+      const visibleSection = entries
+        .filter((entry) => entry.isIntersecting)
+        .sort((first, second) => second.intersectionRatio - first.intersectionRatio)[0];
+
+      if (!visibleSection) return;
+
+      navLinks.forEach((link) => {
+        if (link.getAttribute("href") === `#${visibleSection.target.id}`) {
+          link.setAttribute("aria-current", "location");
+        } else {
+          link.removeAttribute("aria-current");
+        }
+      });
+    }, { rootMargin: "-20% 0px -65% 0px", threshold: [0, .1, .25, .5] });
+
+    sections.forEach((section) => sectionObserver.observe(section));
+  }
+
+  const backToTop = document.querySelector(".back-to-top");
+
+  function updateBackToTop() {
+    backToTop.classList.toggle("is-visible", window.scrollY > 500);
+  }
+
+  window.addEventListener("scroll", updateBackToTop, { passive: true });
+  updateBackToTop();
+
+  backToTop.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+</script>
+</body>
+</html>
